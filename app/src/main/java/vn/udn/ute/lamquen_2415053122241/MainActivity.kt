@@ -17,8 +17,9 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
+}
 
-
-
+fun String.chuanHoaTen_2241(): String {
+    return this.trim()
 }
 

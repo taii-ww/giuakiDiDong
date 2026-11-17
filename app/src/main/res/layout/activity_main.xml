@@ -31,10 +31,10 @@
 
     <!-- Các nút bấm -->
     <Button
-        android:id="@+id/btnKiemTra"
+        android:id="@+id/btnGhiNhan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Kiểm tra" />
+        android:text="Ghi nhận" />
 
     <Button
         android:id="@+id/btnXoa"
@@ -55,5 +55,21 @@
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:textStyle="bold" />
+
+    <!-- ... các view cũ ... -->
+
+    <TextView
+        android:id="@+id/txtTong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng đã nhận: 0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtConLai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chỗ còn lại: 9"
+        android:textSize="16sp" />
 
 </LinearLayout>
